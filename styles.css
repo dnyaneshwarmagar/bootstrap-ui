@@ -1,0 +1,36 @@
+#carouselExampleDark > div > div{
+    height: 140vh;
+}
+#carouselExampleDark  img{
+    height: 100%;
+}
+.flex-box{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    text-align: center; 
+    gap: 2%;  
+}
+.flex-box > div{
+    width:32%;
+    height: 50vh;
+}
+.flex-img{
+   height: 90%;
+   width: 100%;
+}
+
+@media only screen and (max-width: 768px) {  
+    .flex-box{
+        gap:3%
+    }
+    .flex-box > div{
+        width:47%;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .flex-box > div{
+        width:100%;
+    }
+}
